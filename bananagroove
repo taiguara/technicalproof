@@ -1,0 +1,27 @@
+- Apresentação Desenvolvedor Taiguara Guirado
+
+
+//Questão#1
+$x = 8;
+$z = 8;
+
+if ( $z >= '1' ) {
+	$z = $z * 2;
+}
+echo $x + $z;
+//result: 24
+
+
+//Questão#2
+$print = '';
+for($i=1; $i<=9; $i++){
+	if ($i <> 4){
+		for($j=1; $j<=5; $j++){
+			$print = 'Hello World';
+		}
+	}
+}
+echo $print;
+
+//result: 1
+
